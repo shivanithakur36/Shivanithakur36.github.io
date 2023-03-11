@@ -154,9 +154,9 @@ justify-content:space-around;
 }
 
 .skills{
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     height: 530px;
-    max-width: 1000px;
+    width: auto;
     /* margin-top: 7.5rem; */
     padding: 10px;
     background-color: rgb(28, 29, 30);
