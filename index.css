@@ -5,52 +5,128 @@
     text-decoration: none;
 }
 body{
-    /* overflow: hidden; */
-    /* background: #222; */
+    
 }
-.hero-header{
+.navbar{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: #92BCB5;
+    margin-top: -8px;
+    margin-left: -8px;
+   
+
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+}
+ .navlinks li{
+    display: inline-block;
+    font-size: 16px;
+}
+ .navlinks li:hover{
+    background-color: rgb(196, 188, 188);
+    
+    border-radius: 5px;
+}
+
+ .navlinks li a{
+    color: Black;
+    margin-right: 3.5rem;
+}
+.name{
+    color: black;
+    transition: all 0.3s ease;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.home{
+    background: url(https://gauravportfolio0083.netlify.app/images/bg.jpg) no-repeat center;
+
+    display: flex;
+    background-color: #111;
+    height: 100vh;
+    margin-left: -8px;
+    width: 219vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+}
+.about{
+    border: 2px solid green;
+    height: 200px;
+    width: auto;
+}
+.skills{
+    border: 2px solid pink;
+    height: 200px;
+    width: auto;
+}
+.projects{
+    border: 2px solid yellow;
+    height: 200px;
+    width: auto;
+}
+.contact{
+    border: 2px solid brown;
+    height: 200px;
+    width: auto;
+}
+/* .div-header{
     width: 100%;
     height: 100%;
     min-height: 100v;
+    
    
 
      
 }
-.wrapper{
+.navbar{
+
     width: 1280px;
     max-width:95% ;
     margin: 0 auto;
     padding: 0 20px;
-    /* margin-bottom: 500px; */
+    display: flex;
 }
 header{
     
     margin-top: -800px;
     
+    
 
     
 padding: 40px 0 30px;
 height: 140px;
-/* width: 1000px; */
 display: flex;
 justify-content: space-between;
 align-items: center;
 font-size: 16px;
 flex-wrap: wrap;
-/* background-color: grey; */
 }
 .logo{
     display: inline-flex;
     justify-content: center;
     align-items: center;
 
-}
-.logo i{
+} */
+/* .logo i{
     height: 45px;
     width: 45px;
     color: black;
     font-weight: 700;
     font-size: 1.5 rem;
+    margin-top: -70px;
     padding: 10px;
     margin-right: 5px;
     cursor: pointer;
@@ -104,19 +180,20 @@ nav .navlinks li a{
     margin-right: 3.5rem;
 }
 .container{
-    /* display: flex; */
     justify-content: space-around;
     align-items: center;
     padding-top: 3rem;
+    
 
-}
-.container .pic{
+} */
+/* .container .pic{
 width: 300px;
 height: 300px;
 border-radius: 50%;
 overflow: hidden;
 border: 15px 7px 25px rgba(0,0,0,0.5);
 border: 7px solid grey;
+
 }
 
 
@@ -148,4 +225,4 @@ border: 7px solid grey;
 }
 .sumary-text p{
     color: white;
-}
+} */
