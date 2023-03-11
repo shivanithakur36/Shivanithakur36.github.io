@@ -26,9 +26,15 @@ body{
  .navlinks li{
     display: inline-block;
     font-size: 16px;
+    /* border: 1px solid black;
+    */
+   
+    
+   
 }
  .navlinks li:hover{
-    background-color: rgb(196, 188, 188);
+    /* background-color: black; */
+    color: aliceblue;
     
     border-radius: 5px;
 }
@@ -37,6 +43,13 @@ body{
     color: Black;
     margin-right: 3.5rem;
 }
+.navlinks li a:hover{
+    color: white;
+    margin-right: 3.5rem;
+    /* font-style: italic; */
+    font-variant-caps: titling-caps;
+    font-weight: bold;
+}
 .name{
     color: black;
     transition: all 0.3s ease;
@@ -44,9 +57,17 @@ body{
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:  sans-serif;
     font-size: 20px;
     font-weight: 600;
+}
+.name:hover{
+    color: white;
+    margin-right: 3.5rem;
+    /* font-style: italic; */
+    font-variant-caps: titling-caps;
+    font-weight: bold;
+    font-size: 30px;
 }
 .home{
     background: url(https://gauravportfolio0083.netlify.app/images/bg.jpg) no-repeat center;
@@ -62,20 +83,131 @@ body{
     background-attachment: fixed;
     font-family: "Ubuntu", sans-serif;
 }
+
 .about{
-    border: 2px solid green;
-    height: 200px;
-    width: auto;
+    /* border: 2px solid green; */
+    height: 250px;
+    width: 400;
+    position: relative;
+    margin-top: -20rem;
+    color: #fff;
+    margin-left: 8rem;
+    margin-top: -23rem;
 }
+.about2{
+    border: 1px solid rgb(208, 215, 216);
+    height: 450px;
+    width: auto;
+    margin-top: 9.5rem;
+    background-color: rgb(208, 215, 216);
+    padding: 20px;
+   
+    
+
+}
+.abt{
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: wavy;
+    width: 180px;
+    align-items: center;
+    margin:2rem 0 5rem 28rem;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(20, 14, 14);
+    color: rgb(252, 250, 250);
+    border-radius: 15px;
+    
+}
+.loremw{
+    height: 130px;
+    width: 35rem;
+    /* border: 1px solid brown; */
+    
+    
+    font-size: 14px;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+.loremw:hover{
+   
+    color: rgb(144, 52, 52);
+}
+.middle-div{
+display: flex;
+justify-content:space-around;
+}
+.my-image{
+    border-radius: 100px;
+    border: 2px solid pink;
+}
+.hello{
+    font-size: 27px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.engnr{
+    font-weight: 600;
+    font-size: 60px;
+    margin-left: -3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .skills{
     border: 2px solid pink;
-    height: 200px;
-    width: auto;
+    height: 530px;
+    max-width: 1000px;
+    /* margin-top: 7.5rem; */
+    padding: 10px;
+    background-color: rgb(28, 29, 30);
+    color: rgb(7, 7, 7);
+    padding: 10px;
+    margin-top: 2rem;
+    padding-right: 20px;
+   
+    /* margin: auto; */
+     
+
+    
+  
+}
+.skills h2{
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+   
+}
+.box{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.ft{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid blue; */
+    width:620;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.lt{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid blue; */
+    width:760px;
+    margin: auto;
 }
 .projects{
     border: 2px solid yellow;
     height: 200px;
     width: auto;
+    margin-top: 10rem;
 }
 .contact{
     border: 2px solid brown;
