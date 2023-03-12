@@ -11,20 +11,21 @@
 <body>
 
     <div class="wrapper">
-        <div class="header">
+      
             <div class="navbar">
     
                 <div class="name">Shivani Thakur</div>
                 <div class="navlinks">
                     <li ><a href="#">Home</a></li>
-                            <li ><a href="#">About</a></li>
+                            <li ><a onclick="scrolltoabout()" href="#">About</a></li>
     
                             <li ><a href="#">Skills</a></li>
     
                             <li ><a href="#">Projects</a></li>
                             <li ><a href="#">Contacts</a></li>
-                            <li ><a href="https://drive.google.com/file/d/1ZvF5nDBzmSnFVug1h4z43xNtq-OlmmMB/view?usp=sharing">Resume</a></li>
+                            <button class="btn-res"><a  href="Shivani-Thakur-Resume.pdf" download>Resume <span></span></a></button>
     
+               
                 </div>
                 
                     
@@ -107,6 +108,9 @@
                     <h3>JavaScript</h3>
     
                 </div>
+
+                    
+        </div>
                 
                 
             </div>
@@ -129,9 +133,14 @@
     
                         
                         <div>
-                            <button>Github </button><button>Netlify</button>
+                            <button onclick="window.open('https://calm-alpaca-414005.netlify.app/')" target="__blank">Github </button>
+                            <!-- <input type="button" value="button name" onclick="window.open('http://www.website.com/page')" /> -->
+
+                            <button onclick="window.open('https://calm-alpaca-414005.netlify.app/')" target="__blank">Netlify</button>
                         </div>
                     </div>
+
+
                 </div>
 
                 <!-- second card -->
@@ -192,6 +201,8 @@
 
             
         </div>
+
+        <!-- contact start -->
         <div class="contact">
             <h1>Contact details</h1>
 
