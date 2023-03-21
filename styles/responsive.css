@@ -12,7 +12,16 @@
   
     .summary {
 
-      width: 70%;
+      width: 90%;
+    }
+    .summary > h1{
+      padding-bottom: 20px;
+      color: #040745;
+      font-size: 20px;
+    }
+    .summary>p {
+      line-height: 1.4;
+      font-size: 16px;
     }
     
     .slogos {
@@ -32,6 +41,9 @@
     .details {
       padding: 10px 0px 11px 20px;
     }
+
+    /* extra for buttons */
+    
 
 
     .my-image {
@@ -179,6 +191,10 @@
   
   .sslogos {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .b-d > a{
+    display: flex;
+    flex-direction: column;
   }
   }
   
