@@ -128,7 +128,7 @@
     grid-template-columns: repeat(1,1fr);
   }
   .sslogos > div > p {
-    font-size: 10px;
+    font-size: 14px;
   }
   .home{
     padding: 40px 0;
@@ -158,20 +158,20 @@
     font-size: 20px;
   }
   .projects_section>div>h1{
-    font-size: 20px;
+    font-size: 18px;
   }
   .pcard {
     width: 90%;
     height: 350px;
   }
   .details >h1{
-    font-size: 20px;
+    font-size:16px;
   }
   .details > p{
-    font-size: 14px;
+    font-size: 12px;
   }
   .details > h3{
-    font-size: 18px;
+    font-size: 16px;
   }
   .stacks > h3{
     font-size: 16px;
@@ -195,6 +195,7 @@
   .b-d > a{
     display: flex;
     flex-direction: column;
+    font-size: 11px;
   }
   }
   
