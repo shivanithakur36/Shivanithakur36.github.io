@@ -66,7 +66,7 @@
     .Navbar {
       display: none;
     }
-    .hamicon {
+    .hi {
       display: block;
     }
     .slogos {
@@ -114,11 +114,11 @@
   
   @media (max-width: 570px) {
   
-  .hamicon{
+  .hi{
     width: 100%;
     
   }
-  .hamicon>a{
+  .hi>a{
     color: rgb(0, 0, 0);
   }
   .slogos{
