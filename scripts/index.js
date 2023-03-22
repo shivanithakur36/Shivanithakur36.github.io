@@ -12,7 +12,7 @@ burger_icon.addEventListener("click", () =>{
     navbar.style.display="block";
 })
 
-let cross = document.querySelector(".crsi");
+let cross = document.querySelector(".cross");
 cross.addEventListener("click", ()=>{
     let navbar =document.querySelector(".bi");
     navbar.style.display="none";
