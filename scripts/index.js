@@ -6,7 +6,7 @@
 // () => {
 
 
-let burger_icon = document.querySelector(".hi");
+let burger_icon = document.querySelector(".hb");
 burger_icon.addEventListener("click", () =>{
     let navbar =document.querySelector(".bi");
     navbar.style.display="block";
@@ -14,8 +14,8 @@ burger_icon.addEventListener("click", () =>{
 
 let cross = document.querySelector(".cross");
 cross.addEventListener("click", ()=>{
-    let navbar =document.querySelector(".bi");
-    navbar.style.display="none";
+    let burger =document.querySelector(".bi");
+    burger.style.display="none";
     console.log("www")
 })
 
