@@ -16,7 +16,7 @@ let cross = document.querySelector(".cross");
 cross.addEventListener("click", ()=>{
     let burger =document.querySelector(".bi");
     burger.style.display="none";
-    console.log("www")
+    
 })
 
 
